@@ -1,0 +1,163 @@
+html,body{
+    font-family: verdana;
+}
+#bg{
+      background: url(../img/bg.png) no-repeat center center fixed;
+      -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    }
+    .navbar{
+  border: none!important;
+  width: 100%;
+}
+    #jumbopic{
+      width: 400px;
+      height: 200px;
+    }
+    #jumboquote{
+      width: 900px;
+      height: 80px;
+    }
+    #family{
+      width: 100%;
+      height: 682px;
+    }
+    #divide{
+      background-color: #DCDCDC;
+    }
+    #quote{
+      font-weight: 0.5em;
+      font-size: 30px;
+    }
+    #insured{
+      font-size: 20px;
+    }
+    .animationdown{
+     opacity: 1;
+    animation: fadeIn 1s ease-in both;
+}
+.navbarcolor{
+  background-color: #FF7F50;
+}
+#vl{
+  border-left: 6px black;
+  height: 500px;
+}
+#loginlogo{
+  width: 200px;
+  height: 200px;
+}
+#verticalline{
+  width: 10px;
+  height: 900px;
+}
+#resultlogo{
+  width: 200px;
+  height: 200px;
+}
+#rightlogo{
+  width: 100px;
+  height: 100px;
+}
+#leftlogo{
+  width: 100px;
+  height: 100px;
+}
+#lifeinsurancelogo{
+  width: 200px;
+  height: 200px;
+}
+#vehicleinsurancelogo{
+  width: 300px;
+  height: 200px;
+}
+#healthinsurancelogo{
+  width: 200px;
+  height: 200px;
+}
+#travelinsurancelogo{
+  width: 200px;
+  height: 220px;
+}
+#petinsurancelogo{
+  width: 200px;
+  height: 220px;
+}
+#contactus{
+  background-color: #FF7F50;
+  width: 100%;
+}
+#particles-js {
+  	position : absolute;
+    width:100%;
+    height:160px;
+}
+
+ @media (min-width: 481px) and (max-width: 767px) {
+#bg{
+      background: url(../img/bg.png) no-repeat center center fixed;
+      -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    }
+    #particles-js {
+  	position : absolute;
+    width:100%;
+    height:610px;
+}
+    #jumbopic{
+      width: 150px;
+      height: 100px;
+    }
+    #jumboquote{
+      width: 450px;
+      height: 60px;
+    }
+    #fam{
+      display: none;
+    }
+    #hr{
+    	width: 300px;
+    }
+    #vehicleinsurancelogo{
+  width: 200px;
+  height: 100px;
+}
+    
+ }
+
+ @media (min-width: 320px) and (max-width: 480px) {
+#bg{
+      background: url(../img/bg.png) no-repeat center center fixed;
+      -webkit-background-size: cover;
+  	  -moz-background-size: cover;
+  	  -o-background-size: cover;
+ 	  background-size: cover;
+    }
+    #particles-js {
+  	position : absolute;
+    width:100%;
+    height:580px;
+}
+    #jumbopic{
+      width: 200px;
+      height: 100px;
+    }
+    #jumboquote{
+      width: 300px;
+      height: 60px;
+    }
+    #fam{
+      display: none;
+    }
+    #hr{
+    	width: 300px;
+    }
+    #vehicleinsurancelogo{
+  width: 150px;
+  height: 100px;
+}
+ }
